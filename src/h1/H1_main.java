@@ -9,7 +9,7 @@ public class H1_main {
          */
     }
 
-    public static boolean isMirrorArray(int[] a, int[]b){
+    public static boolean isMirrorArray(int[] a, int[] b){
 
         if (a.length != b.length){
             return false;
