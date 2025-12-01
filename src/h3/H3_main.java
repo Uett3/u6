@@ -3,9 +3,11 @@ package h3;
 public class H3_main {
 
     public static void main(String[] args) {
-        int[] asd = {12,1,12,33};
+       /* int[] asd = {12,1,12,33};
         int[] dsa = {33,12,12,1};
         System.out.println(compareArraysVal(asd, dsa));
+
+        */
     }
 
     public static boolean compareArraysVal(int[] a, int[] b){

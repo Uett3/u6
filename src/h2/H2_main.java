@@ -3,12 +3,14 @@ package h2;
 public class H2_main {
 
     public static void main(String[] args) {
-        int[] asd = {1,2,3,4,1};
-        int[] dsa = {1,2,3,4,1};
+       /* int[] asd = {1,2,777,3,4};
+        int[] dsa = {1,2,777,3,4};
         System.out.println(compareArrays(asd, dsa));
+
+        */
     }
 
-    public static boolean compareArrays(int a[], int[]b){
+    public static boolean compareArrays(int[] a, int[] b){
 
         if (a.length != b.length){
             return false;

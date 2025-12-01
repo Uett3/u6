@@ -2,12 +2,14 @@ package h1;
 
 public class H1_main {
     public static void main(String[] args) {
-        int[] asd = {1,2,3,4,1};
-        int[] dsa = {1,4,3,2,1};
+        /*int[] asd = {999,1,0,0,7};
+        int[] dsa = {7,0,0,1,999};
         System.out.println(isMirrorArray(asd, dsa));
+
+         */
     }
 
-    public static boolean isMirrorArray(int a[], int[]b){
+    public static boolean isMirrorArray(int[] a, int[]b){
 
         if (a.length != b.length){
             return false;
